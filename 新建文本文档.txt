@@ -1,3 +1,15 @@
 git config --global user.name 'yzctest'
 git config --global user.email '1094491399@qq.com'
 git status 查看状态
+
+echo "# tianxin_test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/pivosxbmc/tianxin_test.git
+git push -u origin main
+
+git remote add origin https://github.com/pivosxbmc/tianxin_test.git
+git branch -M main
+git push -u origin main
